@@ -1,0 +1,35 @@
+{
+  "name": "pic_to_aa",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sota-onozuka/pic_to_aa.git"
+  },
+  "keywords": [
+    "picture",
+    "translation"
+  ],
+  "author": "Sota Onozuka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sota-onozuka/pic_to_aa/issues"
+  },
+  "homepage": "https://github.com/sota-onozuka/pic_to_aa#readme",
+  "dependencies": {
+    "canvas": "^2.8.0",
+    "image-size": "^1.0.0",
+    "math": "^0.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.30.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  },
+  "description": ""
+}
