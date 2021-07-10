@@ -6,7 +6,7 @@ const Canvas = require('canvas')
 const path = require('path')
 const Image = Canvas.Image
 
-fs.readFile(path.join(__dirname, `/${process.argv[process.argv.length - 1]}`), function (err, data) {
+fs.readFile(path.join(`${process.cwd()}`, `/${process.argv[process.argv.length - 1]}`), function (err, data) {
   if (err) throw err
 
   const img = new Image()
