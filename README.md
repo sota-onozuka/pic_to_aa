@@ -1,24 +1,27 @@
 # pic_to_aa
 
-画像ファイルからアスキーアートを作成します。
+Generating an ASCII art from a picture file
 
-## 使い方
+## Usage
 
 ```
 npm install pic_to_aa
 ./node_modules/.bin/pic_to_aa /image/path.png
 ```
 
-## 例
+## An Example of use
 
 ```
 $ curl https://1.bp.blogspot.com/-CsehOjszIbs/Xwkf-yUi4gI/AAAAAAABZ84/FzZavcqSiawpixMKANJmMrAXhiN6M88yACNcBGAsYHQ/s1600/ouen_jersey_man1_red.png > test.png
 $ npm install pic_to_aa
 $ ./node_modules/.bin/pic_to_aa test.png
+```
 
-（いらすとやの画像をお借りしています。）
+Using picture from a web site below
 https://1.bp.blogspot.com/-CsehOjszIbs/Xwkf-yUi4gI/AAAAAAABZ84/FzZavcqSiawpixMKANJmMrAXhiN6M88yACNcBGAsYHQ/s1600/ouen_jersey_man1_red.png
 
+Output is
+```
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁日縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁年すややすあややや縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁
@@ -83,10 +86,9 @@ https://1.bp.blogspot.com/-CsehOjszIbs/Xwkf-yUi4gI/AAAAAAABZ84/FzZavcqSiawpixMKA
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁？？？？？？？？い＄？？？？？？？？？？？？？縁縁縁縁縁縁縁縁縁縁縁
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁？？？？？？？？＄い？？？？？？？？？？？？？縁縁縁縁縁縁縁縁縁縁縁
 縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁縁い？＄＄いい縁い縁い縁縁い＄＄＄いや＄＄＄い？縁縁縁縁縁縁縁縁縁縁縁
+```
 
-
-
-## 依存関係
+## Dependency
     "canvas": "^2.8.0",
     "image-size": "^1.0.0",
     "math": "^0.0.3"
